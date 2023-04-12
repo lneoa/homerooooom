@@ -5,18 +5,60 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <title>Teaching Portal</title>
+  <title>Welcome to Homeroom</title>
   <meta name="description" content="">
   <meta name="keywords" content="graphic design">
-  <link rel="stylesheet" href="main.css">
+  <!-- <link rel="stylesheet" href="main.css"> -->
+
+      <script type="text/javascript">
+        (function titleScroller(text) {
+            document.title = text;
+            console.log(text);
+            setTimeout(function () {
+                titleScroller(text.substr(1) + text.substr(0, 1));
+            }, 250);
+        }("·.¸¸.·Welcome to Homeroom·.¸¸.·"));
+      </script>
+      
 </head>
 
-<body>
-<pre>
-<a href="rutgers-23-d1b/index.html">Rutgers 2023 Form & Meaning</a>
-<a href="rutgers-22-d1a/index.html">Rutgers 2022 Type & Typography</a>
+<style>
 
-</pre>
+body {
+  height: 600px;
+  position: relative;
+}
+
+#rotate {
+  transform: rotate(-10deg);
+  width: 400px;
+  margin-left: -30px;
+  position: absolute;
+}
+
+a:hover {
+  /* font-size: large; */
+  letter-spacing: 8px;
+}
+
+</style>
+
+<body>
+
+    <pre>
+      <span id="rotate"> *site is under construction* </span>
+
+
+
+
+    This is the teaching portal of Leona Cheung.
+
+    <a href="rutgers-23-d1b/index.html">Rutgers 2023 Form & Meaning</a>
+    <a href="rutgers-22-d1a/index.html">Rutgers 2022 Type & Typography</a>
+    
+    </pre>
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script src="js/script.js"></script>
