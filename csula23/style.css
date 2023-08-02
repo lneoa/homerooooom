@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    position: relative;
+}
+
+#nav {
+    padding: 8px;
+    font-size: 2em;
+    bottom: 10px;
+    z-index: 1;
+    position: fixed;
+    text-shadow: 1px 1px 10px #adff2f;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Tiltortion';
+    src:  url('font/Tiltortion.otf') format('woff2'),
+          url('font/Tiltortion.otf') format('woff');
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+td {
+    padding: 6px;
+    transform: rotate(0deg);
+}
+
+td:hover {
+    cursor: pointer;
+    color: black;
+    text-shadow: 1px 1px 2px greenyellow, 0 0 25px greenyellow, 0 0 5px greenyellow;
+}
+
+#gradient {
+    height: 60px;
+    padding: 10px;
+    margin-left: -10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 255, 255, 0.635), white, white);
+    text-align: right;
+  }
