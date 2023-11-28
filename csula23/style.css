@@ -9,12 +9,16 @@ body {
 
 #nav {
     padding: 8px;
-    font-size: 2em;
+    font-size: 2.5em;
     bottom: 10px;
     z-index: 1;
     position: fixed;
     text-shadow: 1px 1px 10px #adff2f;
     color: black;
+}
+
+#nav td {
+    padding-right: 10px;
 }
 
 @font-face {
@@ -44,7 +48,7 @@ td:hover {
 }
 
 #gradient {
-    height: 60px;
+    height: 100px;
     padding: 10px;
     margin-left: -10px;
     position: fixed;
@@ -53,3 +57,9 @@ td:hover {
     background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 255, 255, 0.635), white, white);
     text-align: right;
   }
+
+button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
