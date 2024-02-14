@@ -91,3 +91,14 @@ a:visited {
     background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 255, 255, 0.635), white, white);
     text-align: right;
   }
+
+/* ---------------------- */
+
+
+@media screen and (min-width: 1200px) {
+
+iframe {
+    height: 100vh;
+}  
+
+}
