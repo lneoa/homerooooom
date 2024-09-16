@@ -2,6 +2,10 @@
     box-sizing: border-box;
   }
 
+.helvetica {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: auto;
     padding: 0;
@@ -16,17 +20,17 @@ body {
 
 #nav {
     margin: auto;
+    margin-bottom: 20px;
     padding: 0;
     width: 100%;
-    margin-bottom: 20px;
+    text-align: center;
 }
 
     #nav ul {
-        margin: 0;
+        margin: 0 auto;
         padding: 10px;
         list-style-type: none;
         text-align: center;
-        /* border: 1px solid lightgray; */
         border-radius: 4px;
         mix-blend-mode: multiply;
     }
@@ -58,6 +62,13 @@ p {
 
 span {
     font-weight: 800;
+}
+
+ol, ul {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    list-style-type: none;
 }
 
 #main {
