@@ -14,7 +14,6 @@ body {
     height: 40px;
     position: fixed;
     top: 0;
-    background-image: linear-gradient(white, white, rgba(255, 255, 255, 0.635), rgba(255, 255, 255, 0));
 }
 
 .title {
@@ -81,7 +80,7 @@ a:visited {
     color: black;
 }
 
-#gradient {
+/* #gradient {
     height: 80px;
     padding: 10px;
     margin-left: -10px;
@@ -90,7 +89,7 @@ a:visited {
     width: 100%;
     background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 255, 255, 0.635), white, white);
     text-align: right;
-  }
+  } */
 
 /* ---------------------- */
 
