@@ -70,7 +70,8 @@ ol {
 }
 
 iframe {
-	mix-blend-mode: multiply;
+	margin: 5px;
+	background-color: white;
 }
 
 
