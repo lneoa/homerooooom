@@ -54,7 +54,7 @@ p {
 
 a {
 	text-decoration: underline;
-	color: black;
+	color: blue;
 	/*font-style: italic;*/
 }
 
@@ -84,7 +84,7 @@ iframe {
 }
 
 .middle {
-	padding: 20px;
+	padding: 0;
 	width: 50%;
 	overflow: scroll;
 }
